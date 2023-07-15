@@ -77,5 +77,6 @@ TODO:
     - Should be "X" on the first cell (first column and first row) on the board when player "X" marks(0,0) 🚧
 
 # Pomodoro 4 🍅 18:55:
-
+Refactoring and testing:
 - Should be "X" on the first cell (first column and first row) on the board when player "X" marks(0,0) 🚧
+- 

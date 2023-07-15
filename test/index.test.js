@@ -58,10 +58,15 @@ describe('Player', () => {
 
     it('Should be "X" on the first cell (first column and first row) on the board when player "X" marks(0,0)', () => {
         let board = createBoard();
+        let boardMock = [
+            ["X",undefined,undefined],
+            [undefined,undefined,undefined],
+            [undefined,undefined,undefined],
+        ]
         let player = new Player();
         
         board = player.marks(board, [0,0]);
 
-        expect(board[0][0]).toBe("X");
+        expect(board).toEqual(boardMock);
     });
 });
