@@ -47,11 +47,18 @@ GAME ENDS WITH A DRAW!
 
 TODO:
 
-# Pomodoro 1 🍅:
+# Pomodoro 1 🍅 16:15:
 
 - README and Notes ✅
 - Domains Search ✅
 
 - Testing and falling "createBoard"
     - Should return a true, when a board is created successfully ✅
-    - Each board should have 3 columns 🚧
+    - Each board should have 3 columns ✅
+
+# Pomodoro 2 🍅 16:45:
+
+- Testing
+    - First Column must have 3 rows 🚧
+    - Second Column must have 3 rows 🚧
+    - Third Column must have 3 rows 🚧
