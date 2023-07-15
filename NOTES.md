@@ -32,6 +32,8 @@ GAME ENDS WITH A DRAW!
 - Jogador: 2 jogadores jogam, o jogador x e o jogador y;
 - Game: Cada jogador pode preencher uma casa do tabuleiro em seu turno com o objetivo de de completar uma horizontal, uma vertical ou diagonal
 
+Turno: Vez de quem joga
+
 -Empate: Não há mais opcões de casa para os jogadores, e ainda não há um vencedor
 
 Mensagens:
@@ -64,4 +66,5 @@ TODO:
     - Third Column must have 3 rows ✅
 
 - Testing Player
-    - Should start named "X" 🚧
+    - Should start named "X" ✅
+    - Should be "O" when the player turn is changed and the player "X" turn pass 🚧
