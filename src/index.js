@@ -8,6 +8,11 @@ const createBoard = () => {
     return board;
 }
 
+function Player() {
+    this.name = "X"
+}
+
 module.exports = {
+    Player,
     createBoard
 }

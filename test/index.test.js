@@ -1,4 +1,4 @@
-const { createBoard } = require("./../src/index");
+const { Player, createBoard } = require("./../src/index");
 
 describe('Board', () => {
 
@@ -34,9 +34,9 @@ describe('Board', () => {
 });
 
 describe('Player', () => {
-    
+
     it('Should start named "X"', () => {
-        let player = startPlayers();
+        let player = new Player();
     
         expect(player.name).toBe("X");
     });
