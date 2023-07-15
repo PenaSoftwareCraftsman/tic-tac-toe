@@ -10,6 +10,10 @@ const createBoard = () => {
 
 function Player() {
     this.name = "X"
+
+    this.changeTurn = () => {
+        this.name = "O"
+    }
 }
 
 module.exports = {
