@@ -51,3 +51,6 @@ TODO:
 
 - README and Notes ✅
 - Domains Search ✅
+
+- Testing and falling "createBoard"
+    - Should return a true, when a board is created successfully 🚧

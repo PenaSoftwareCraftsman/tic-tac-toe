@@ -1,7 +1,7 @@
-const dumb = () => {
+const createBoard = () => {
 
 }
 
 module.exports = {
-    dumb
+    createBoard
 }

@@ -1,5 +1,7 @@
-const { dumb } = require("./../src/index");
+const { createBoard } = require("./../src/index");
 
-describe('Dumb', () => {
-    
+describe('Board', () => {
+    let board = createBoard();
+
+    expect(board).toBeDefined();
 });
