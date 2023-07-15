@@ -1,9 +1,8 @@
-# KATA NAME
+# Tic-Tac-Toe Kata – Jogo da Velha
 
-XXXX A short description XXXXXX
+O exercício envolve desenvolver um jogo da velha aderindo as regras do TDD.
 
-
-[XX KATA NAME FOR THE LINK](LINK)
+[Regras Tic-tac-toe](https://pt.wikihow.com/Jogar-Jogo-da-Velha)
 
 ## Prerequisites
 

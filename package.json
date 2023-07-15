@@ -1,7 +1,7 @@
 {
-  "name": "codewars-js-template",
+  "name": "tic-tac-toe",
   "version": "1.0.0",
-  "description": "XXXX A short description XXXXXX",
+  "description": "O exercício envolve desenvolver um jogo da velha aderindo as regras do TDD.",
   "main": "index.js",
   "directories": {
     "test": "test"
