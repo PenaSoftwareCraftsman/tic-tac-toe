@@ -13,5 +13,22 @@ describe('Board', () => {
 
         expect(board.length).toBe(3); 
     });
+
+    it('First Column must have 3 rows', () => {
+        let board = createBoard();
+
+        expect(board[0].length).toBe(3); 
+    });
     
+    it('Second Column must have 3 rows', () => {
+        let board = createBoard();
+
+        expect(board[1].length).toBe(3); 
+    });
+
+    it('Third Column must have 3 rows', () => {
+        let board = createBoard();
+
+        expect(board[2].length).toBe(3); 
+    });
 });
