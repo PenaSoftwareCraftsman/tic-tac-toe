@@ -12,7 +12,7 @@ function Player() {
     this.name = "X"
 
     this.changeTurn = () => {
-        this.name = "O"
+        this.name = this.name == "X" ? "O" : 'X';
     }
 }
 
