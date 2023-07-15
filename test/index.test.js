@@ -32,3 +32,13 @@ describe('Board', () => {
         expect(board[2].length).toBe(3); 
     });
 });
+
+describe('Player', () => {
+    
+    it('Should start named "X"', () => {
+        let player = startPlayers();
+    
+        expect(player.name).toBe("X");
+    });
+
+});

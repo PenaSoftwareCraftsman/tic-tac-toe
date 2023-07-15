@@ -58,7 +58,10 @@ TODO:
 
 # Pomodoro 2 🍅 16:45:
 
-- Testing
-    - First Column must have 3 rows 🚧
-    - Second Column must have 3 rows 🚧
-    - Third Column must have 3 rows 🚧
+- Testing Board
+    - First Column must have 3 rows ✅
+    - Second Column must have 3 rows ✅
+    - Third Column must have 3 rows ✅
+
+- Testing Player
+    - Should start named "X" 🚧
