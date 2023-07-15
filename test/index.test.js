@@ -55,4 +55,13 @@ describe('Player', () => {
 
         expect(player.name).toBe("X");
     });
+
+    it('Should be "X" on the first cell (first column and first row) on the board when player "X" marks(0,0)', () => {
+        let board = createBoard();
+        let player = new Player();
+        
+        board.marks(player.name, [0,0]);
+
+        expect(board[0][0]).toBe("X");
+    });
 });

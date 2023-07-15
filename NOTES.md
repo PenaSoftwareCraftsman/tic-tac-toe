@@ -73,4 +73,5 @@ TODO:
 
 - Testing Player
     - Should be "O" when the player turn is changed and the player "X" turn pass ✅
-    - Should be "X" when the player turn is changed and the player "O" turn pass 🚧
+    - Should be "X" when the player turn is changed and the player "O" turn pass ✅
+    - Should be "X" on the first cell (first column and first row) on the board when player "X" marks(0,0) 🚧
