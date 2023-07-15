@@ -72,4 +72,5 @@ TODO:
 # Pomodoro 2 🍅 17:15:
 
 - Testing Player
-    - Should be "O" when the player turn is changed and the player "X" turn pass 🚧
+    - Should be "O" when the player turn is changed and the player "X" turn pass ✅
+    - Should be "X" when the player turn is changed and the player "O" turn pass 🚧

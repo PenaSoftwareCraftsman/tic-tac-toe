@@ -47,4 +47,12 @@ describe('Player', () => {
 
         expect(player.name).toBe("O");
     });
+
+    it('Should be "X" when the player turn is changed and the player "O" turn pass', () => {
+        let player = new Player();
+        player.name = "O";
+        player.changeTurn();
+
+        expect(player.name).toBe("X");
+    });
 });
