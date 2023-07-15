@@ -60,7 +60,7 @@ describe('Player', () => {
         let board = createBoard();
         let player = new Player();
         
-        board.marks(player.name, [0,0]);
+        board = player.marks(board, [0,0]);
 
         expect(board[0][0]).toBe("X");
     });

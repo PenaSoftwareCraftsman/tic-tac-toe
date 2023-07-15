@@ -69,9 +69,13 @@ TODO:
     - Should start named "X" ✅
     - Should be "O" when the player turn is changed and the player "X" turn pass 🚧
 
-# Pomodoro 2 🍅 17:15:
+# Pomodoro 3 🍅 17:15:
 
 - Testing Player
     - Should be "O" when the player turn is changed and the player "X" turn pass ✅
     - Should be "X" when the player turn is changed and the player "O" turn pass ✅
     - Should be "X" on the first cell (first column and first row) on the board when player "X" marks(0,0) 🚧
+
+# Pomodoro 4 🍅 18:55:
+
+- Should be "X" on the first cell (first column and first row) on the board when player "X" marks(0,0) 🚧
