@@ -68,3 +68,8 @@ TODO:
 - Testing Player
     - Should start named "X" ✅
     - Should be "O" when the player turn is changed and the player "X" turn pass 🚧
+
+# Pomodoro 2 🍅 17:15:
+
+- Testing Player
+    - Should be "O" when the player turn is changed and the player "X" turn pass 🚧
