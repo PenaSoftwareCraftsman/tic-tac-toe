@@ -1,0 +1,29 @@
+{
+  "name": "codewars-js-template",
+  "version": "1.0.0",
+  "description": "XXXX A short description XXXXXX",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^29.6.1"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest",
+    "test:watch": "jest --watchAll --coverage=true --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PenaSoftwareCraftsman/codewars-js-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PenaSoftwareCraftsman/codewars-js-template/issues"
+  },
+  "homepage": "https://github.com/PenaSoftwareCraftsman/codewars-js-template#readme"
+}
