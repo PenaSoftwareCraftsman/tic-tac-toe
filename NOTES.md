@@ -54,3 +54,4 @@ TODO:
 
 - Testing and falling "createBoard"
     - Should return a true, when a board is created successfully ✅
+    - Each board should have 3 columns 🚧
