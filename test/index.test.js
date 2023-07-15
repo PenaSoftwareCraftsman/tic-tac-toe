@@ -69,4 +69,8 @@ describe('Player', () => {
 
         expect(board).toEqual(boardMock);
     });
+
+    it('Should return all board positions when checks board empty cells', () => {
+        
+    });
 });
