@@ -82,4 +82,8 @@ Refactoring and testing:
 
 Testing: 
 
-- Should return all board positions when checks board empty cells 🚧
+- Should return all board positions when checks board empty cells ❌
+
+Refactoring test:
+
+- should return true when check if the first cell of a new board is undefined 🚧

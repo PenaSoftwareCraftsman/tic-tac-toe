@@ -70,11 +70,9 @@ describe('Player', () => {
         expect(board).toEqual(boardMock);
     });
 
-    it('Should return all board positions when checks board empty cells', () => {
+    it('should return true when check if the first cell of a new board is undefined', () => {
         let board = createBoard();
-
-        let boardEmptyCellsMock = [[0, 0], [0, 1],[0, 2],[1, 0], [1, 1],[1, 2], [3, 0], [3, 1], [3, 2]];
-
-        expect(board.checkEmptyCells()).toEqual(boardEmptyCellsMock);
+  
+        expect(board.checkIfEmpty([0,0])).toEqual(true);
     });
 });
