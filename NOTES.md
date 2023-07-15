@@ -1,5 +1,3 @@
-# Notes
-
 # Cenários TDD 
 1 – Criação do tabuleiro:  
 Game Board Creation...
@@ -30,6 +28,20 @@ GAME ENDS WITH A DRAW!
 
 # Domains
 
+- Tabuleiro: Tabuleiro montado com um espaco 3x3 que os jogadores podem adicionar "x" ou "o" as casas
+- Jogador: 2 jogadores jogam, o jogador x e o jogador y;
+- Game: Cada jogador pode preencher uma casa do tabuleiro em seu turno com o objetivo de de completar uma horizontal, uma vertical ou diagonal
+
+-Empate: Não há mais opcões de casa para os jogadores, e ainda não há um vencedor
+
+Mensagens:
+
+Para vitória:
+PLAYER X WON!
+
+Para empate:
+GAME ENDS WITH A DRAW!
+
 **Label**  
 ✅ done 🚧 WIP ❌ ERROR
 
@@ -38,4 +50,4 @@ TODO:
 # Pomodoro 1 🍅:
 
 - README and Notes ✅
-- initial setup (organize function name and domain) 🚧
+- Domains Search ✅
