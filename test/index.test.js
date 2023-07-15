@@ -1,7 +1,11 @@
 const { createBoard } = require("./../src/index");
 
 describe('Board', () => {
-    let board = createBoard();
 
-    expect(board).toBeDefined();
+    it('Should return a true, when a board is created successfully', () => {
+       let board = createBoard();
+
+        expect(board).toBeDefined(); 
+    });
+    
 });
